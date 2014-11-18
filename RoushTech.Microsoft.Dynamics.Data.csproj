@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicsContext.cs" />
     <Compile Include="Inventory\ItemCurrencyMaster.cs" />
     <Compile Include="Inventory\ItemPriceList.cs" />
     <Compile Include="Inventory\ItemPriceListOptions.cs" />
@@ -53,7 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="LICENSE" />
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

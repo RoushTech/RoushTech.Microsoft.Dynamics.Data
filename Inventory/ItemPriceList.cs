@@ -1,4 +1,4 @@
-﻿namespace RoushTech.Microsoft.Dynamics.Import.Data.Inventory
+﻿namespace RoushTech.Microsoft.Dynamics.Data.Inventory
 {
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
