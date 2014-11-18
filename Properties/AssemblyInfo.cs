@@ -1,11 +1,11 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("RoushTech.Microsoft.Dynamics.Import")]
+[assembly: AssemblyTitle("RoushTech.Microsoft.Dynamics.Data")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RoushTech.Microsoft.Dynamics.Import")]
+[assembly: AssemblyProduct("RoushTech.Microsoft.Dynamics.Data")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
