@@ -6,6 +6,15 @@
 
     public class DynamicsContext : DbContext
     {
+        public DynamicsContext()
+        {
+        }
+
+        public DynamicsContext(string nameOrConnectionString)
+            : base(nameOrConnectionString)
+        {
+        }
+
         public DbSet<ItemCurrencyMaster> ItemCurrencyMaster { get; set; }
 
         public DbSet<ItemPriceList> ItemPriceList { get; set; }

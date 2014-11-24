@@ -8,11 +8,10 @@
     public class ItemCurrencyMaster
     {
         [Column("ITEMNMBR")]
-        [StringLength(30)]
+        [Key]
         public string ItemNumber { get; set; }
 
         [Column("CURNCYID")]
-        [StringLength(15)]
         public string CurrencyId { get; set; }
 
         [Column("CURRNIDX")]

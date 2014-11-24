@@ -8,19 +8,16 @@
     public class ItemPriceListOptions
     {
         [Column("ITEMNMBR")]
-        [StringLength(30)]
+        [Key]
         public string ItemNumber { get; set; }
 
         [Column("CURNCYID")]
-        [StringLength(15)]
         public string CurrencyId { get; set; }
 
         [Column("PRCLEVEL")]
-        [StringLength(10)]
         public string PriceLevel { get; set; }
 
         [Column("UOFM")]
-        [StringLength(8)]
         public string UnitOfMeasure { get; set; }
 
         [Column("RNDGAMNT")]
