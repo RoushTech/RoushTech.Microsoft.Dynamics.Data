@@ -7,8 +7,8 @@
     [Table("IV00105")]
     public class ItemCurrencyMaster
     {
-        [Column("ITEMNMBR")]
         [Key]
+        [Column("ITEMNMBR")]
         public string ItemNumber { get; set; }
 
         [Column("CURNCYID")]

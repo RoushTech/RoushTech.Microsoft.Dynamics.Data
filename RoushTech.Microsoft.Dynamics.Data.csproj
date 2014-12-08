@@ -52,6 +52,7 @@
     <Compile Include="Inventory\ItemPriceList.cs" />
     <Compile Include="Inventory\ItemPriceListOptions.cs" />
     <Compile Include="Inventory\ItemPurchasing.cs" />
+    <Compile Include="Inventory\ItemVendorMaster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
