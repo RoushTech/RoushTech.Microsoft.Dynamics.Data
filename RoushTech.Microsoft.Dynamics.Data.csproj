@@ -48,8 +48,10 @@
   <ItemGroup>
     <Compile Include="DynamicsContext.cs" />
     <Compile Include="Inventory\ItemCurrencyMaster.cs" />
+    <Compile Include="Inventory\ItemMaster.cs" />
     <Compile Include="Inventory\ItemPriceList.cs" />
     <Compile Include="Inventory\ItemPriceListOptions.cs" />
+    <Compile Include="Inventory\ItemPurchasing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
