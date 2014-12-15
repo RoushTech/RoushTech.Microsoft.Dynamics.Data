@@ -17,8 +17,14 @@
 
         public DbSet<ItemCurrencyMaster> ItemCurrencyMaster { get; set; }
 
+        public DbSet<ItemMaster> ItemMaster { get; set; }
+
         public DbSet<ItemPriceList> ItemPriceList { get; set; }
 
-        public DbSet<ItemPriceListOptions> ItemPriceListOptions { get; set; } 
+        public DbSet<ItemPriceListOptions> ItemPriceListOptions { get; set; }
+
+        public DbSet<ItemPurchasing> ItemPurchasing { get; set; }
+
+        public DbSet<ItemVendorMaster> ItemVendorMaster { get; set; } 
     }
 }
