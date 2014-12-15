@@ -1,6 +1,5 @@
 ﻿namespace RoushTech.Microsoft.Dynamics.Data.Inventory
 {
-    using System;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
@@ -15,12 +14,12 @@
         public string CurrencyId { get; set; }
 
         [Column("CURRNIDX")]
-        public Int16 CurrencyIndex { get; set; }
+        public short? CurrencyIndex { get; set; }
 
         [Column("DECPLCUR")]
-        public Int16 DecimalPlacesInCurrency { get; set; }
+        public short? DecimalPlacesInCurrency { get; set; }
 
         [Column("LISTPRCE")]
-        public decimal ListPrice { get; set; }
+        public decimal? ListPrice { get; set; }
     }
 }

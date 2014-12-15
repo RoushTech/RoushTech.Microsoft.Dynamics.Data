@@ -15,9 +15,9 @@
         public string UnitOfMeasure { get; set; }
 
         [Column("QTYBSUOM")]
-        public decimal QuantityInBaseUnitOfMeasure { get; set; }
+        public decimal? QuantityInBaseUnitOfMeasure { get; set; }
 
         [Column("UMPUROPT")]
-        public Int16 UnitOfMeasurePurchasesOptions { get; set; }
+        public short? UnitOfMeasurePurchasesOptions { get; set; }
     }
 }

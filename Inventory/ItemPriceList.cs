@@ -20,15 +20,15 @@
         public string UnitOfMeasure { get; set; }
 
         [Column("TOQTY")]
-        public decimal ToQuantity { get; set; }
+        public decimal? ToQuantity { get; set; }
 
         [Column("FROMQTY")]
-        public decimal FromQuantity { get; set; }
+        public decimal? FromQuantity { get; set; }
 
         [Column("UOMPRICE")]
-        public decimal UnitOfMeasurePrice { get; set; }
+        public decimal? UnitOfMeasurePrice { get; set; }
 
         [Column("QTYBSUOM")]
-        public decimal QuantityInBaseUnitOfMeasure { get; set; }
+        public decimal? QuantityInBaseUnitOfMeasure { get; set; }
     }
 }

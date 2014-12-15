@@ -21,18 +21,18 @@
         public string UnitOfMeasure { get; set; }
 
         [Column("RNDGAMNT")]
-        public decimal RoundingAmount { get; set; }
+        public decimal? RoundingAmount { get; set; }
 
         [Column("ROUNDHOW")]
-        public Int16 RoundHow { get; set; }
+        public short? RoundHow { get; set; }
 
         [Column("ROUNDTO")]
-        public Int16 RoundTo { get; set; }
+        public short? RoundTo { get; set; }
 
         [Column("UMSLSOPT")]
-        public Int16 UnitOfMeasureSalesOptions { get; set; }
+        public short? UnitOfMeasureSalesOptions { get; set; }
 
         [Column("QTYBSUOM")]
-        public decimal QuantityInBaseUnitOfMeasure { get; set; }
+        public decimal? QuantityInBaseUnitOfMeasure { get; set; }
     }
 }

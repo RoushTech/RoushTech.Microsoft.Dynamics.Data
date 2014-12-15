@@ -15,106 +15,106 @@
         public string ItemDescription { get; set; }
 
         [Column("NOTEINDX")]
-        public decimal NoteIndex { get; set; }
+        public decimal? NoteIndex { get; set; }
 
         [Column("ITMSHNAM")]
         public string ItemShortName { get; set; }
 
         [Column("ITEMTYPE")]
-        public short ItemType { get; set; }
+        public short? ItemType { get; set; }
 
         [Column("ITMGEDSC")]
         public string ItemGenericDescription { get; set; }
 
         [Column("STNDCOST")]
-        public decimal StandardCost { get; set; }
+        public decimal? StandardCost { get; set; }
 
         [Column("CURRCOST")]
-        public decimal CurrentCost { get; set; }
+        public decimal? CurrentCost { get; set; }
 
         [Column("ITEMSHWT")]
-        public int ItemShippingWeight { get; set; }
+        public int? ItemShippingWeight { get; set; }
 
         [Column("DECPLQTY")]
-        public short DecimalPlacesQuantities { get; set; }
+        public short? DecimalPlacesQuantities { get; set; }
 
         [Column("DECPLCUR")]
-        public short DecimalPlacesCurrency { get; set; }
+        public short? DecimalPlacesCurrency { get; set; }
 
         [Column("ITMTSHID")]
         public string ItemTaxScheduleId { get; set; }
 
         [Column("TAXOPTNS")]
-        public short TaxOptions { get; set; }
+        public short? TaxOptions { get; set; }
 
         [Column("IVIVINDX")]
-        public int IvIvIndex { get; set; }
+        public int? IvIvIndex { get; set; }
 
         [Column("IVIVOFIX")]
-        public int IvIvOffsetIndex { get; set; }
+        public int? IvIvOffsetIndex { get; set; }
 
         [Column("IVCOGSIX")]
-        public int IvSalesIndex { get; set; }
+        public int? IvSalesIndex { get; set; }
 
         [Column("IVSLDSIX")]
-        public int IvSalesDiscountsIndex { get; set; }
+        public int? IvSalesDiscountsIndex { get; set; }
 
         [Column("IVSLRNIX")]
-        public int IvSalesReturnsIndex { get; set; }
+        public int? IvSalesReturnsIndex { get; set; }
 
         [Column("IVINUSIX")]
-        public int IvInUseIndex { get; set; }
+        public int? IvInUseIndex { get; set; }
 
         [Column("IVINSVIX")]
-        public int IvInServiceIndex { get; set; }
+        public int? IvInServiceIndex { get; set; }
 
         [Column("IVDMGIDX")]
-        public int IvDamagedIndex { get; set; }
+        public int? IvDamagedIndex { get; set; }
         
         [Column("IVVARIDX")]
-        public int IvVariancesIndex { get; set; }
+        public int? IvVariancesIndex { get; set; }
 
         [Column("DPSHPIDX")]
-        public int DropShipIndex { get; set; }
+        public int? DropShipIndex { get; set; }
 
-        [Column("PURVIDX")]
-        public int PurchasePriceVarianceIndex { get; set; }
+        [Column("PURPVIDX")]
+        public int? PurchasePriceVarianceIndex { get; set; }
 
         [Column("UPPVIDX")]
-        public int UnrealizedPurchasePriceVarianceIndex { get; set; }
+        public int? UnrealizedPurchasePriceVarianceIndex { get; set; }
 
         [Column("IVRETIDX")]
-        public int InventoryReturnsIndex { get; set; }
+        public int? InventoryReturnsIndex { get; set; }
 
         [Column("ASMVRIDX")]
-        public int AssemblyVarianceIndex { get; set; }
+        public int? AssemblyVarianceIndex { get; set; }
 
         [Column("ITMCLSCD")]
         public string ItemClassCode { get; set; }
 
         [Column("ITMTRKOP")]
-        public short ItemTrackingOption { get; set; }
+        public short? ItemTrackingOption { get; set; }
 
         [Column("LOTTYPE")]
         public string LotType { get; set; }
 
         [Column("KPERHIST")]
-        public bool KeepPeriodHistory { get; set; }
+        public byte? KeepPeriodHistory { get; set; }
 
         [Column("KPTRXHST")]
-        public bool KeepTrxHistory { get; set; }
+        public byte? KeepTrxHistory { get; set; }
 
         [Column("KPCALHST")]
-        public bool KeepCalendarHistory { get; set; }
+        public byte? KeepCalendarHistory { get; set; }
 
         [Column("KPDSTHST")]
-        public bool KeepDistributionHistory { get; set; }
+        public byte? KeepDistributionHistory { get; set; }
 
         [Column("ALWBKORD")]
-        public bool AllowBackOrders { get; set; }
+        public byte? AllowBackOrders { get; set; }
 
         [Column("VCTNMTHD")]
-        public short ValuationMethod { get; set; }
+        public short? ValuationMethod { get; set; }
 
         [Column("UOMSCHDL")]
         public string UnitOfMeasureSchedule { get; set; }
@@ -144,16 +144,16 @@
         public string UserCategoryValues6 { get; set; }
 
         [Column("MSTRCDTY")]
-        public int MasterRecordType { get; set; }
+        public short? MasterRecordType { get; set; }
 
         [Column("MODIFDT")]
-        public DateTime ModifiedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
 
         [Column("CREATDDT")]
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
 
         [Column("WRNTYDYS")]
-        public short WarrantyDays { get; set; }
+        public short? WarrantyDays { get; set; }
 
         [Column("PRCLEVEL")]
         public string PriceLevel { get; set; }
@@ -162,22 +162,22 @@
         public string LocationCode { get; set; }
 
         [Column("PINFLIDX")]
-        public int PurchInflationIndex { get; set; }
+        public int? PurchInflationIndex { get; set; }
 
         [Column("PURMCIDX")]
-        public int PurchMonetaryCorrectionIndex { get; set; }
+        public int? PurchMonetaryCorrectionIndex { get; set; }
 
         [Column("IVINFIDX")]
-        public int InventoryInflationIndex { get; set; }
+        public int? InventoryInflationIndex { get; set; }
 
         [Column("INVMCIDX")]
-        public int InventoryMonetaryCorrectionIndex { get; set; }
+        public int? InventoryMonetaryCorrectionIndex { get; set; }
 
         [Column("CGSINFLX")]
-        public int COGSInflationIndex { get; set; }
+        public int? COGSInflationIndex { get; set; }
 
         [Column("CGSMCIDX")]
-        public int COGSMonetaryCorrectionIndex { get; set; }
+        public int? COGSMonetaryCorrectionIndex { get; set; }
 
         [Column("ITEMCODE")]
         public string ItemCode { get; set; }
@@ -189,7 +189,7 @@
         public string PriceGroup { get; set; }
 
         [Column("PRICMTHD")]
-        public short PriceMethod { get; set; }
+        public short? PriceMethod { get; set; }
 
         [Column("PRCHSUOM")]
         public string PurchasingUnitOfMeasure { get; set; }
@@ -198,57 +198,57 @@
         public string SellingUnitOfMeasure { get; set; }
 
         [Column("KTACCTSR")]
-        public short KitCOGSAccountSource { get; set; }
+        public short? KitCOGSAccountSource { get; set; }
 
         [Column("LASTGENSN")]
         public string LastGeneratedSerialNumber { get; set; }
 
         [Column("ABCCODE")]
-        public short ABCCode { get; set; }
+        public short? ABCCode { get; set; }
 
         [Column("Revalue_Inventory")]
-        public bool RevalueInventory { get; set; }
+        public byte? RevalueInventory { get; set; }
 
         [Column("Tolerance_Percentage")]
-        public int TolerancePercentage { get; set; }
+        public int? TolerancePercentage { get; set; }
 
         [Column("Purchase_Item_Tax_Schedu")]
         public string PurchaseItemTaxScheduleId { get; set; }
 
         [Column("Purchase_Tax_Options")]
-        public short PurchaseTaxOptions { get; set; }
+        public short? PurchaseTaxOptions { get; set; }
 
         [Column("ITMPLNNNGTYP")]
-        public short ItemPlanningType { get; set; }
+        public short? ItemPlanningType { get; set; }
 
         [Column("STTSTCLVLPRCNTG")]
-        public short StatisticalValuePercentage { get; set; }
+        public short? StatisticalValuePercentage { get; set; }
 
         [Column("CNTRYORGN")]
         public string CountryOrigin { get; set; }
 
         [Column("INACTIVE")]
-        public bool Inactive { get; set; }
+        public byte? Inactive { get; set; }
 
         [Column("MINSHELF1")]
-        public short MinShelfLife1 { get; set; }
+        public short? MinShelfLife1 { get; set; }
 
         [Column("MINSHELF2")]
-        public short MinShelfLife2 { get; set; }
+        public short? MinShelfLife2 { get; set; }
 
         [Column("INCLUDEINDP")]
-        public bool IncludeInDemandPlanning { get; set; }
+        public byte? IncludeInDemandPlanning { get; set; }
 
         [Column("LOTEXPWARN")]
-        public bool LotExpireWarning { get; set; }
+        public byte? LotExpireWarning { get; set; }
 
         [Column("LOTEXPWARNDAYS")]
-        public short LotExpireWarningDays{ get; set; }
+        public short? LotExpireWarningDays{ get; set; }
 
         [Column("LASTGENLOT")]
         public string LastGeneratedLotNumber { get; set; }
 
         [Column("Lot_Split_Quantity")]
-        public decimal LotSplitQuantity { get; set; }
+        public decimal? LotSplitQuantity { get; set; }
     }
 }
