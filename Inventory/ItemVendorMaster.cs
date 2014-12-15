@@ -40,7 +40,7 @@
         public decimal? LastReceiptQuantity { get; set; }
 
         [Column("LSRCPTDT")]
-        public decimal? LastReceiptDate { get; set; }
+        public DateTime? LastReceiptDate { get; set; }
 
         [Column("LRCPTCST")]
         public decimal? LastReceiptCost { get; set; }
